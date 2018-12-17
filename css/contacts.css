@@ -1,0 +1,10 @@
+body {
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-image: url(../image/contact.jpeg)
+}
+.well {
+  font-size: 20px;
+  color: navy;
+  background-color: #008800;
+}
