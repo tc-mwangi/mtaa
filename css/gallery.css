@@ -1,0 +1,16 @@
+#imgOne, #imgTwo, #imgThree {
+  width: 310px;
+  height: 300px;
+}
+
+#sOne, #sTwo, #sThree {
+  display: none;
+}
+
+#sFour, #sFive, #sSix {
+  display: none;
+}
+
+#sSeven, #sEight, #sNine {
+  display: none;
+}
