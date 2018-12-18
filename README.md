@@ -28,11 +28,12 @@ Software used in the application include;
 ## List of contributors
 Thank you to all the people who made this happen:
 
-|![Loise Mwangi width"20%"](https://github.com/tc-mwangi/mtaa/blob/master/image/loise.jpg) [Loise Mwangi](https://github.com/tc-mwangi/)     |
-|![Francis Thande width"20%"](https://github.com/tc-mwangi/mtaa/blob/master/image/Fran.jpg) [Francis Thande](https://github.com/Dun-Njuguna/)   |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---: |
-|![Margaret W width"20%"](https://github.com/tc-mwangi/mtaa/blob/master/image/wak.jpg) [Margaret Wakarima](https://github.com/MargaretW/)   |
-|![Chrispus Ngure width"20%"](https://github.com/tc-mwangi/mtaa/blob/master/image/ngure.jpg)[Chrispius Ngure ](https://github.com/Slim95Chrisp)   |
+| ![Loise Mwangi width="20%"](https://github.com/tc-mwangi/mtaa/blob/master/image/loise.jpg)[Loise Mwangi](https://github.com/tc-mwangi/)     |
+| ![Francis Thande width="20%"](https://github.com/tc-mwangi/mtaa/blob/master/image/Fran.jpg)[Francis Thande](https://github.com/Fkaragu)|
+| ![Dun Njuguna width="20%"](https://github.com/tc-mwangi/mtaa/blob/master/image/Dun.jpg)[Duncan Njuguna](https://github.com/Dun-Njuguna/) |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| ![Margaret W width="20%"](https://github.com/tc-mwangi/mtaa/blob/master/image/wak.jpg)[Margaret Wakarima ](https://github.com/MargaretW/)|
+| ![Chrispus Ngure width="20%"](https://github.com/tc-mwangi/mtaa/blob/master/image/ngure.jpg)[Chrispius Ngure](https://github.com/Slim95Chrisp)|
 
 ##links to live page
 
@@ -41,6 +42,6 @@ Thank you to all the people who made this happen:
 ### License
 
 Copyright (c) {2018} {Mtaa Inc} Permission is hereby granted, free of charge, to any person willing to obtain a copy of this program for personal use. However if the program will be used for commercial gain then a royalty fee will have to be paid to the author of the program.
-=======
+
 
 master
