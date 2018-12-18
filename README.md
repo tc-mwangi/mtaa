@@ -27,12 +27,13 @@ Software used in the application include;
 ## List of contributors
 Thank you to all the people who made this happen:
 
+<!-- prettier-ignore -->
 | ![Loise Mwangi width"70px"](https://github.com/tc-mwangi/mtaa/blob/master/image/loise.jpg)Loise Mwangi -[Github Account](https://github.com/tc-mwangi/)|
-| ![Francis Thande width"130px"](https://github.com/tc-mwangi/mtaa/blob/master/image/Fran.jpg) Francis Thande- [Github Account](https://github.com/Fkaragu)|
+| ![Francis Thande width"70px"](https://github.com/tc-mwangi/mtaa/blob/master/image/Fran.jpg) Francis Thande- [Github Account](https://github.com/Fkaragu)|
 | ![Dun Njuguna width"70px"](https://github.com/tc-mwangi/mtaa/blob/master/image/Dun.jpg) Duncan Njuguna - [Github Account](https://github.com/Dun-Njuguna/)|
-|:----:|:----:|:----:|:----:|
-| ![Margaret W width"100px"](https://github.com/tc-mwangi/mtaa/blob/master/image/wak.jpg) Margaret Wakarima - [Github Account](https://github.com/MargaretW/)|
-| ![Chrispus Ngure width"100px"](https://github.com/tc-mwangi/mtaa/blob/master/image/ngure.jpg) Chrispius Ngure - [Github Account](https://github.com/Slim95Chrisp)|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| ![Margaret W width"70px"](https://github.com/tc-mwangi/mtaa/blob/master/image/wak.jpg) Margaret Wakarima - [Github Account](https://github.com/MargaretW/)|
+| ![Chrispus Ngure width"70px"](https://github.com/tc-mwangi/mtaa/blob/master/image/ngure.jpg) Chrispius Ngure - [Github Account](https://github.com/Slim95Chrisp)|
 
 ##links to live page
 [Preview](https://tc-mwangi.github.io/mtaa/)
