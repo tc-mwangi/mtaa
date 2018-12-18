@@ -1,3 +1,4 @@
+ maggy
 # {MTAA}
 #### {Brief description of application}, {Date of current version}
 ## Description
@@ -37,3 +38,6 @@ Thank you to all the people who made this happen;
 ### License
 
 Copyright (c) {2018} {Mtaa Inc} Permission is hereby granted, free of charge, to any person willing to obtain a copy of this program for personal use. However if the program will be used for commercial gain then a royalty fee will have to be paid to the author of the program.
+=======
+
+master

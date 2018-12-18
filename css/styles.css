@@ -1,0 +1,81 @@
+.well {
+  background-color: #008800;
+  height: 6em;
+  margin-top: 10px;
+}
+
+/* .jumbotron {
+  background-image: url("../eventimages/image1.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 60em;
+  background-repeat: no-repeat;
+  object-fit:fill;
+} */
+
+.container {
+  margin-bottom: 200px;
+  width: 90%;
+}
+
+.row {
+  /* max-width: 90%;
+  margin-left: 5%; */
+  padding: 10px;
+  overflow: hidden;
+}
+
+.footer {
+  text-align: center;
+  width: 100%;
+  background-color: #FFFFFF;
+}
+
+.last {
+  background-color: #008800;
+  height: 200px;
+}
+
+/* .row {
+    text-align:center;
+}
+
+.col-md-4 {
+    display:inline-block;
+    float:none;
+    text-align:left;
+    margin-right:-4px;
+} */
+.wrapper {
+  position: relative;
+  padding: 0;
+  width: 100px;
+  display: block;
+}
+
+.text {
+  position: absolute;
+  top: 0;
+  color: #f00;
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 500px;
+  height: inherit;
+  text-align: center;
+  z-index: 10;
+  opacity: 0;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  font-size: 2em;
+  -moz-transition: all 0.5s ease;
+}
+
+.text:hover {
+  opacity: 1;
+}
+}
+
+img {
+  z-index: 1;
+  height: 200px;
+}
