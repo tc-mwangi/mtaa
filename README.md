@@ -26,11 +26,11 @@ Software used in the application include;
 
 ## List of contributors
 Thank you to all the people who made this happen;
-![Loise Mwangi](../image/loise.jpg) [github](https://github.com/tc-mwangi/)
-![Francis Thande](../image/Fran.jpg) [github](https://github.com/Fkaragu)
-![Duncan Njuguna](../image/Dun.jpg) [github](https://github.com/Dun-Njuguna/)
-![Margaret W](../image/Wak.jpg) [github](https://github.com/MargaretW/)
-![Chrispus Ngure](../image/ngure.jpg) [github](https://github.com/Slim95Chrisp)
+![Loise Mwangi](https://github.com/tc-mwangi/mtaa/blob/master/image/loise.jpg) -[Github Account](https://github.com/tc-mwangi/)
+![Francis Thande](https://github.com/tc-mwangi/mtaa/blob/master/image/Fran.jpg) - [Github Account](https://github.com/Fkaragu)
+![Duncan Njuguna](https://github.com/tc-mwangi/mtaa/blob/master/image/Dun.jpg) - [Github Account](https://github.com/Dun-Njuguna/)
+![Margaret W](https://github.com/tc-mwangi/mtaa/blob/master/image/wak.jpg) - [Github Account](https://github.com/MargaretW/)
+![Chrispus Ngure](https://github.com/tc-mwangi/mtaa/blob/master/image/ngure.jpg) - [Github Account](https://github.com/Slim95Chrisp)
 
 ##links to live page
 [Preview](https://tc-mwangi.github.io/mtaa/)
