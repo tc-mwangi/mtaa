@@ -4,6 +4,10 @@ body {
   background-image: url(../image/contact.jpeg)
 
 }
+h1 {
+  font-size: 40px;
+  
+}
 .well {
   font-size: 20px;
   color: teal;
