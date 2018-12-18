@@ -6,6 +6,9 @@
 ## Setup/Installation Requirements
 
 
+##Specs
+|**behavior**                                    | **expected outcome**                      |
+|:-----------------------------------------------|:------------------------------------------|
 
 ## Known Bugs
 
@@ -32,5 +35,5 @@ Thank you to all the people who made this happen;
 [Preview](https://tc-mwangi.github.io/mtaa/)
 
 ### License
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
-Copyright (c) {year} **{List of contributors or company name}**
+
+Copyright (c) {2018} {Mtaa Inc} Permission is hereby granted, free of charge, to any person willing to obtain a copy of this program for personal use. However if the program will be used for commercial gain then a royalty fee will have to be paid to the author of the program.
