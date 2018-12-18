@@ -6,6 +6,8 @@
   <title>Contact Mtaa</title>
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/contacts.css">
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="js/master.js"></script>
 </head>
 
 <body>
@@ -24,48 +26,50 @@
       </div>
       <div class="input-group mb-3">
         <div class="input-group-prepend">
-          <label class="input-group-text" for="inputGroupSelect01">COUNTRY</label>
+          <label class="input-group-text" for="inputGroupSelect01">ESTATE</label>
         </div>
         <select class="custom-select" class="select">
           <option selected>Choose...</option>
-          <option value="1">Kenya</option>
-          <option value="2">Uganda</option>
-          <option value="3">Tanzania</option>
-          <option value="4">Rwanda</option>
-          <option value="5">Burundi </option>
+          <option value="1">Ruaka</option>
+          <option value="2">Roselyn</option>
+          <option value="3">Runda</option>
+          <option value="4">Muthaiga</option>
+          <option value="5">Highridge</option>
         </select>
       </div>
-      <div class="form-group">
-        <div class="input-group">
-          <div class="input-group-prepend">
-            <span class="input-group-text">Full Name</span>
+      <div id="feedback">
+        <form>
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text">Full Name</span>
+            </div>
+            <input type="text" aria-label="Full Name" class="form-control" required>
           </div>
-          <input type="text" aria-label="Full Name" class="form-control" required>
-        </div>
-        <div class="input-group">
-          <div class="input-group-prepend">
-            <span class="input-group-text">Email Address</span>
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text">Email Address</span>
+            </div>
+            <input type="text" aria-label="Email Address" class="form-control" required>
           </div>
-          <input type="text" aria-label="Email Address" class="form-control" required>
-        </div>
-        <div class="input-group">
-          <div class="input-group-prepend">
-            <span class="input-group-text">Phone Number</span>
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text">Phone Number</span>
+            </div>
+            <input type="text" aria-label="Phone Number" class="form-control" required>
           </div>
-          <input type="text" aria-label="Phone Number" class="form-control" required>
-        </div>
-        <div class="input-group">
-          <div class="input-group-prepend">
-            <span class="input-group-text">Subject</span>
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text">Subject</span>
+            </div>
+            <input type="text" aria-label="Subject" class="form-control" required>
           </div>
-          <input type="text" aria-label="Subject" class="form-control" required>
-        </div>
-        <div class="input-group-prepend">
-          <span class="input-group-text">Message</span>
-        </div>
-        <textarea name="message area" rows="8" cols="80"></textarea>
-        <button type="submit" class="btn btn-danger">Submit</button>
 
+          <div class="input-group-prepend">
+            <span class="input-group-text">Message</span>
+          </div>
+          <textarea name="message area" rows="8" cols="80"></textarea>
+          <button type="submit" id="submit"class="btn btn-warning">Submit</button>
+        </form>
       </div>
     </div>
   </div>
