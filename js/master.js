@@ -1,9 +1,8 @@
 $(document).ready(function() {
-  var greeting=console.log("high");
-
+  console.log("hi")
   });
 });
-
-$(document).ready(function(){
-  $(".owl-carousel").owlCarousel();
-});
+// 
+// $(document).ready(function(){
+//   $(".owl-carousel").owlCarousel();
+// });
