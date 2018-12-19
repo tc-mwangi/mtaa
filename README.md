@@ -42,7 +42,7 @@ Software used in the application include;
 Thank you to all the people who made this happen:
 
 | [<img src="image/Fran.jpg" width="100px;"/><br /><sub><b>Francis Thande</b></sub>](https://github.com/Fkaragu) <br /> | [<img src="image/loise.jpg" width="100px;"/><br /><sub><b>Loise Mwangi</b></sub>](https://github.com/tc-mwangi/) <br /> | [<img src="image/Dun.jpg" width="100px;"/><br /><sub><b>Duncan Njuguna</b></sub>](https://github.com/Dun-Njuguna/) <br />|
-| :--- | :--- | :--- | :--- | :---|
+| :--- | :---: | ---: |
 | [<img src="image/wak.jpg" width="100px;"/><br /><sub><b>Wakarima M</b></sub>](https://github.com/MargaretW/) <br /> | [<img src="image/ngure.jpg" width="100px;"/><br /><sub><b>Chrispus Ngure</b></sub>](https://github.com/Slim95Chrisp)
 
 ### License
