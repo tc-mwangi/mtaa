@@ -53,3 +53,8 @@ img {
   border: 2px solid black;
   border-radius: 50%;
 }
+.well p {
+  text-align: center;
+  font-size: 18px;
+  font-family: monospace;
+}
