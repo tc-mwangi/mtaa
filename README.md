@@ -10,6 +10,7 @@
 
 ## Setup/Installation Requirements
 
+To run this project on your local machine, simply download it navigate to the folder and open the index.html file with any web browser(preferably chrome).
 
 ## Specs
 
@@ -33,7 +34,7 @@ Software used in the application include;
 * [Wakarima M](https://github.com/MargaretW/)
 * [Chrispus N](https://github.com/Slim95Chrisp)
 
-## link to live page
+## Link to live page
 
 [Preview](https://tc-mwangi.github.io/mtaa/)
 
@@ -41,7 +42,7 @@ Software used in the application include;
 Thank you to all the people who made this happen:
 
 | [<img src="image/Fran.jpg" width="100px;"/><br /><sub><b>Francis Thande</b></sub>](https://github.com/Fkaragu) <br /> | [<img src="image/loise.jpg" width="100px;"/><br /><sub><b>Loise Mwangi</b></sub>](https://github.com/tc-mwangi/) <br /> | [<img src="image/Dun.jpg" width="100px;"/><br /><sub><b>Duncan Njuguna</b></sub>](https://github.com/Dun-Njuguna/) <br />|
-| :--- |:---: | ---: |
+| :--- |:---: | :---: | :---: | ---: |
 | [<img src="image/wak.jpg" width="100px;"/><br /><sub><b>Wakarima M</b></sub>](https://github.com/MargaretW/) <br /> | [<img src="image/ngure.jpg" width="100px;"/><br /><sub><b>Chrispus Ngure</b></sub>](https://github.com/Slim95Chrisp)
 
 ### License
