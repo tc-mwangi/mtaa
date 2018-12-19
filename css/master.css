@@ -252,24 +252,47 @@ url("css/fonts/Acumin Pro/AcuminPro-Bold.svg") format("svg");
 
 /* COLORS */
 
-/* Bright Yellow - #FDD418 */
+/* ff3333
+
+33ffff
+
+66cccc
+
+99ccff
+
+ccffff
+
+black 000000
+
+white ffffff
+
 
 /* Headings */
 
 h1 {
-  color: #FDD418;
+  color: #33ffff;
   font-family: 'Acumin Pro';
   font-weight: 900;
   font-style: normal;
   font-size: 300px;
-  color: #FDD418;
+
 }
+
+p #block-message {
+  color: #ff3333;
+  font-family: 'Acumin Pro';
+  font-weight: 300px;
+  font-style: normal;
+  font-size: 300px;
+
+}
+
 
 h2 {
   font-family: 'Acumin Pro';
   font-weight: bold;
   font-style: normal;
-  color: #FDD418;
+  color: #ff3333;
 }
 
 .your-style {
