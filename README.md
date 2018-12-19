@@ -28,11 +28,11 @@ Software used in the application include;
 ## List of contributors
 Thank you to all the people who made this happen:
 
-![Francis Thande](https://github.com/tc-mwangi/mtaa/blob/master/image/Fran.jpg =20%)[Francis Thande](https://github.com/Fkaragu)
-![Loise Mwangi](https://github.com/tc-mwangi/mtaa/blob/master/image/loise.jpg =20%)[Loise Mwangi](https://github.com/tc-mwangi/)    
-![Dun Njuguna](https://github.com/tc-mwangi/mtaa/blob/master/image/Dun.jpg =20%)[Duncan Njuguna](https://github.com/Dun-Njuguna/)
-![Margaret W](https://github.com/tc-mwangi/mtaa/blob/master/image/wak.jpg =20%)[Margaret Wakarima ](https://github.com/MargaretW/)
-![Chrispus Ngure](https://github.com/tc-mwangi/mtaa/blob/master/image/ngure.jpg =20%)[Chrispus Ngure](https://github.com/Slim95Chrisp)
+![Francis Thande](../image/Fran.jpg =20%)[Francis Thande](https://github.com/Fkaragu)
+![Loise Mwangi](../image/Fran.jpg =20%)[Loise Mwangi](https://github.com/tc-mwangi/)    
+![Dun Njuguna](../image/Fran.jpg =20%)[Duncan Njuguna](https://github.com/Dun-Njuguna/)
+![Margaret W](../image/Fran.jpg =20%)[Margaret Wakarima ](https://github.com/MargaretW/)
+![Chrispus Ngure](../image/Fran.jpg =20%)[Chrispus Ngure](https://github.com/Slim95Chrisp)
 
 ## links to live page
 
