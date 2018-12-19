@@ -1,13 +1,22 @@
-#top{
-  background-color: skyblue;
+.all{
+  max-width: 90%;
+}
+.overlay{
+position: absolute;
+width: 100%;
+height: auto;
+top: 25%;
+text-align: center;
+z-index: 2;
+color: white;
+font-size: 5em;
 }
 #carouselExampleIndicators {
   margin-bottom: 20px;
 }
-
 .carousel-inner>.carousel-item>img {
   width: 100%;
-  max-height: 500px;
+  max-height: 600px;
   object-fit: cover;
 }
 
@@ -20,9 +29,12 @@
   height: 400px;
   border-radius: 50%;
 }
-
+#birthdayImg{
+  width: 500px;
+  height: 600px;
+}
 #week{
-  background-color: skyblue;
+  background-color: lightblue;
   color: #FFFFFF;
   text-align: center;
 }
@@ -30,6 +42,8 @@
   background-color: skyblue;
   color: #FFFFFF;
   text-align: center;
+  margin: 20px;
+  width: 85%;
 }
 .soon{
   margin: 20px;
@@ -38,6 +52,18 @@
 .col-md-8{
   text-align: center;
   margin: 20px;
+}
+#post{
+
+}
+.verification{
+  display: none;
+}
+.eventPost{
+  display: none;
+}
+.recorded{
+  display: none;
 }
 .footer{
   background-color:skyblue;
