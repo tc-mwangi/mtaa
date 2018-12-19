@@ -28,11 +28,11 @@ Software used in the application include;
 ## List of contributors
 Thank you to all the people who made this happen:
 
-![Francis Thande](../image/Fran.jpg =20%)[Francis Thande](https://github.com/Fkaragu)
-![Loise Mwangi](../image/Fran.jpg =20%)[Loise Mwangi](https://github.com/tc-mwangi/)    
-![Dun Njuguna](../image/Fran.jpg =20%)[Duncan Njuguna](https://github.com/Dun-Njuguna/)
-![Margaret W](../image/Fran.jpg =20%)[Margaret Wakarima ](https://github.com/MargaretW/)
-![Chrispus Ngure](../image/Fran.jpg =20%)[Chrispus Ngure](https://github.com/Slim95Chrisp)
+| [<img src="image/Fran.jpg" width="100px;"/><br /><sub><b>Francis Thande</b></sub>](https://github.com/Fkaragu) |
+| [<img src="image/loise.jpg" width="100px;"/><br /><sub><b>Loise Mwangi</b></sub>](https://github.com/tc-mwangi/) |
+| [<img src="image/Dun.jpg" width="100px;"/><br /><sub><b>Duncan Njuguna</b></sub>](https://github.com/Dun-Njuguna/) |
+| [<img src="image/wak.jpg" width="100px;"/><br /><sub><b>Wakarima M</b></sub>](https://github.com/MargaretW/) |
+| [<img src="image/ngure.jpg" width="100px;"/><br /><sub><b>chrispus Ngure</b></sub>](https://github.com/Slim95Chrisp) |
 
 ## links to live page
 
