@@ -1,12 +1,12 @@
 h1 {
   text-align: center;
-  font-family:inherit;
-  font-size: 10vw;
+  font-family: monospace;
+  font-size: 5vw;
 }
 
 h2 {
   text-align: center;
-  font-size: 10vw;
+  font-size: 5vw;
 }
 
 p {
