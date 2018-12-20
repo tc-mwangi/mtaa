@@ -12,8 +12,7 @@ h2 {
 
 p {
   text-align: justify;
-  font-family: monospace
-  font-size: 8vw;
+  font-family: monospace;
 }
 
 ul {
@@ -74,7 +73,6 @@ ul {
   text-align: center;
   font-size: 18px;
   font-family: monospace;
-  font-size: 5vw;
 }
 
 .row #img_cont {
