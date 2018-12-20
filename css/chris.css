@@ -1,17 +1,31 @@
 h1 {
   text-align: center;
+<<<<<<< HEAD
   font-family: monospace;
   font-size: 5vw;
+=======
+  font-family:inherit;
+  font-size: 6vw;
+>>>>>>> test
 }
 
 h2 {
+  font-family: monospace;
   text-align: center;
+<<<<<<< HEAD
   font-size: 5vw;
+=======
+  font-size: 8vw;
+>>>>>>> test
 }
 
 p {
   text-align: justify;
   font-family: monospace
+<<<<<<< HEAD
+=======
+  font-size: 8vw;
+>>>>>>> test
 }
 
 ul {
@@ -73,4 +87,8 @@ ul {
   font-size: 18px;
   font-family: monospace;
   font-size: 5vw;
+}
+
+.row #img_cont {
+  display:inline-block;
 }
