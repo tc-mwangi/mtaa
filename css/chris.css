@@ -5,13 +5,15 @@ h1 {
 }
 
 h2 {
+  font-family: monospace;
   text-align: center;
-  font-size: 5vw;
+  font-size: 8vw;
 }
 
 p {
   text-align: justify;
   font-family: monospace
+  font-size: 8vw;
 }
 
 ul {
@@ -73,4 +75,8 @@ ul {
   font-size: 18px;
   font-family: monospace;
   font-size: 5vw;
+}
+
+.row #img_cont {
+  display:inline-block;
 }
