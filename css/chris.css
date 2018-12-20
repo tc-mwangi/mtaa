@@ -1,13 +1,21 @@
 h1 {
   text-align: center;
+  font-family:inherit;
 }
+
+h2 {
+  text-align: center;
+}
+
 p {
   text-align: justify;
-  font-family:monospace;
+  font-family: monospace;
 }
+
 ul {
-  font-family:monospace;
+  font-family: monospace;
 }
+
 .row {
   line-height: 25px;
   margin-left: auto;
@@ -20,25 +28,24 @@ ul {
   border: 2px solid black;
   width: 400px;
   height: 300px;
-
 }
 
 #stretch {
   width: 550px;
-  height:300px;
+  height: 300px;
   line-height: 40px;
   padding-top: 75px;
 }
 
 #mid {
   width: 550px;
-  height:300px;
+  height: 300px;
   line-height: 30px;
 }
 
 #final {
   width: 550px;
-  height:300px;
+  height: 300px;
   line-height: 35px;
   padding-top: 20px;
 }
@@ -49,30 +56,18 @@ ul {
   border: 2px solid black;
   border-radius: 50%;
 }
+
 #push {
   width: 525px;
 }
+
 .foot {
   margin-top: 20px;
   margin-left: 60px;
 }
+
 .well p {
   text-align: center;
   font-size: 18px;
   font-family: monospace;
-}
-
-#img_cont {
-  display: table;
-  width: 90%;
-  margin: 20px auto;
-}
-#img_cont {
-  display: table-cell;
-  text align: center;
-  width: 16%;
-}
-#img_cont {
-  width: 100%auto;
-  max-width: 150px;  
 }
