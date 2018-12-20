@@ -223,6 +223,13 @@
 /* STYLING */
 
 /* 1. Navigation Bar */
+.stick-fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+
 
 
 
@@ -269,6 +276,10 @@ white ffffff
 
 /* Headings */
 
+#features {
+
+}
+
 h1 {
   color: #33ffff;
   font-family: 'Acumin Pro';
@@ -278,10 +289,29 @@ h1 {
 
 }
 
+h4 {
+  font-family: 'Acumin Pro';
+  font-weight: bold;
+  font-style: normal;
+
+}
+
+ /* #block-message{
+  color: #33ffff;
+  font-family: 'Acumin Pro';
+  font-weight: 900;
+  font-style: normal;
+  font-size: 300px;
+
+  font-weight: 600;
+  font-style: normal;
+
+} */
+
 p #block-message {
   color: #ff3333;
   font-family: 'Acumin Pro';
-  font-weight: 300px;
+  font-weight: 900;
   font-style: normal;
   font-size: 300px;
 
@@ -295,12 +325,7 @@ h2 {
   color: #ff3333;
 }
 
-.your-style {
-
-}
-
-
-h3, h4, h5, h6 {
+h3, h5, h6 {
   font-family: 'Acumin Pro';
   font-weight: bold;
   font-style: normal;
