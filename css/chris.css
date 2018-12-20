@@ -61,3 +61,18 @@ ul {
   font-size: 18px;
   font-family: monospace;
 }
+
+#img_cont {
+  display: table;
+  width: 90%;
+  margin: 20px auto;
+}
+#img_cont {
+  display: table-cell;
+  text align: center;
+  width: 16%;
+}
+#img_cont {
+  width: 100%auto;
+  max-width: 150px;  
+}
