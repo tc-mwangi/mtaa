@@ -1,28 +1,19 @@
 h1 {
   text-align: center;
-  font-family:inherit;
-  font-size: 6vw;
-=======
   font-family: monospace;
   font-size: 5vw;
->>>>>>> test
 }
 
 h2 {
   font-family: monospace;
   text-align: center;
-  font-size: 8vw;
-=======
   font-size: 5vw;
->>>>>>> test
 }
 
 p {
   text-align: justify;
   font-family: monospace
   font-size: 8vw;
-=======
->>>>>>> test
 }
 
 ul {
