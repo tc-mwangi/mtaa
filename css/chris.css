@@ -7,13 +7,13 @@ h1 {
 h2 {
   font-family: monospace;
   text-align: center;
-  font-size: 5vw;
+  font-size: 8vw;
 }
 
 p {
   text-align: justify;
   font-family: monospace
-  /* font-size: 8vw; */
+  font-size: 8vw;
 }
 
 ul {
