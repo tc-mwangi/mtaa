@@ -13,6 +13,7 @@
   <link rel="shortcut icon" href="img/home/icons/connection.png">
 
   <!-- Font Awesome Links -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <link rel="stylesheet" href="bootstrap-3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/fontawesome-free-5.6.1-web/css/fontawesome.min.css">
@@ -25,6 +26,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/master.css">
   <!-- JS -->
   <script src="js/jquery-3.3.1.js" type="text/javascript"></script>
   <script src="js/events.js" charset="utf-8"></script>
@@ -39,35 +41,43 @@
 
     <!-- Navigation panel -->
 
-    <nav id="navig-bar" class="navbar navbar-expand-lg navbar navbar-dark bg-primary">
-      <a href="#top"><img src="img/home/icons/connection.png" width="50" height="50" alt="mtaa logo" /></a>
-      <a class="navbar-brand" href="top">Mtaa</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+    <section="fixed">
+
+      <nav id="navig-bar" class="navbar navbar-expand-lg navbar navbar-dark bg-primary">
+        <a href="index.html"><img src="img/home/mtaa/logos_logo-color.png" width="200" height="auto" alt="mtaa logo" /></a>
+        <a class="navbar-brand" href="top"></a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+
+          <ul class="navbar-nav">
+
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html" id='social'>Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html" id='social'>About</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="gallery.html" id='social'>Gallery</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="gallery.html">Gallery</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="events.html">Events</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contacts.html">Contact</a>
-          </li>
-          <li class="nav-item">
+            <li class="nav-item">
+              <a class="nav-link" href="events.html" id='social'>Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacts.html" id='social'>Contact</a>
+            </li>
+            <!-- <li class="nav-item">
             <a class="nav-link disabled" href="404.html">Blog</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+          </li> -->
+          </ul>
+        </div>
+      </nav>
+
+    </section>
+
   </div>
   <!-- End Navigation panel -->
 
@@ -85,7 +95,7 @@
         <img class="d-block w-100" src="eventimages/men.jpg" alt="First slide">
         <div class="container">
           <div class="carousel-caption">
-            <h1>Get Notified </h1>
+            <h4>Get Notified </h4>
             <p>Know what is going on around you.
             </p>
           </div>
@@ -100,7 +110,7 @@
         <img class="d-block w-100" src="eventimages/image1.jpeg" alt="Second slide">
         <div class="container">
           <div class="carousel-caption">
-            <h1>Mtaa</h1>
+            <h4>Mtaa</h4>
             <p>Your Information Base for All Things Local.
             </p>
           </div>
@@ -110,7 +120,7 @@
         <img class="d-block w-100" src="eventimages/love-heart-hands_4460x4460.jpg" alt="Third slide">
         <div class="container">
           <div class="carousel-caption">
-            <h1>Get Involved</h1>
+            <h4>Get Involved</h4>
             <p>Know what is going on around you.
             </p>
           </div>
@@ -133,38 +143,38 @@
   <div class="container-fluid">
     <div class="row justify-content-center">
       <div class="col-md-10" id="week">
-        <h3>This Weeks Events</h3>
+        <h3 id="title1">This Weeks Events</h3>
       </div>
     </div>
     <div class="row justify-content-center ">
-      <div class="col-md-3">
+      <div class="col-md-3 centered">
         <img class="img-fluid eventImages" src="eventimages/bride-ceremony-chairs-794254.jpg" alt="">
         <br>
         <br>
         <span>
-          <h2>WEDDING INVITE</h2>
+          <h2>Wedding Invite</h2>
           <p>Rachel & Zach wish to invite you for their
             Chrismass Wedding on 25th December from 10.00 am at St Xavier Catholic Church.
             Drinks Dancing Shenanigans to follow at Parklands Sports club …. </p>
         </span>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-3 centered">
         <img class="eventImages img-fluid" src="eventimages/tyler-delgado-497542-unsplash.jpg" alt="">
         <br>
         <br>
         <span>
-          <h2>TIM’S BIRTHDAY</h2>
+          <h2>Tim's Birthday</h2>
           <p>There are things that when you miss there is no going back,
             this party is a good example so you must do your best not to miss it for the world. Tim turns 16.
             venue Roselyn Lane house 567 at 6 pm. </p>
         </span>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-3 centered">
         <img class="eventImages img-fluid" src="eventimages/guryanova-167262-unsplash.jpg" alt="">
         <br>
         <br>
         <span>
-          <h2>RUGBY GAMES:</h2>
+          <h2>Rugby</h2>
           <p>Hosted once every years, the Rugby neighbourhood event always is an easy way to relax and mingle.
             It is the big stage that rugby enthusiast from each estate get the chance to participate in the game they love.
             It is the largest sports event held. It contained a total of 5 matches and held in one of the fields in Runda Estate.
@@ -174,32 +184,32 @@
     </div>
 
     <div class="row justify-content-center">
-      <div class="col-md-3">
+      <div class="col-md-3 centered">
         <img class="eventImages img-fluid" src="eventimages/wade-lambert-676955-unsplash.jpg" alt="">
         <br>
         <br>
         <span>
-          <h2>SAFARI</h2>
+          <h2>Safari</h2>
           <p>3 Days Masai Mara Wildebeest Migration Safari Packages DAILY DEPARTURES FROM KSHS. 13,499/- (US$ 160) PPS (based on 8pax in a Van)
             Maasai Mara 3days overland truck camping safari with big group departures(22-25 Pax) From ksh 9,999 PPS Usd $ 130 for all 3-days</p>
         </span>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-3 centered">
         <img class="eventImages img-fluid" src="eventimages/academy-accomplishment-celebrate-267885.jpg" alt="">
         <br>
         <br>
         <span>
-          <h2>GRADUATION PARTY</h2>
+          <h2>Graduation Party</h2>
           <p>Graduation is a special occasion in every student's life. We've watched Blue Haze grow throughout her academic career.The time has passed so quickly and graduation day is here!We joyfully invite to a Graduation Party In the honor of our
             daughter on 21st 3.00pm Bliss Park Avenue</p>
         </span>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-3 centered">
         <img class="eventImages img-fluid" src="eventimages/competition-exercise-group-3629.jpg" alt="">
         <br>
         <br>
         <span>
-          <h2>RUN!RUN!RUN!</h2>
+          <h2>Marathon</h2>
           <p>You are invited to join (our team) MTAA
             <br>
             Have you ever wanted to run through the forest ? Well now’s your chance to make your goal a reality.
@@ -218,8 +228,8 @@
     </div>
 
     <div class="row justify-content-center">
-      <div class="col-md-10" id="announced">
-        <h2>Just announced events</h2>
+      <div class="col-md-10n centered" id="announced">
+        <h2 id="title1">Just announced events</h2>
       </div>
     </div>
 
@@ -228,7 +238,7 @@
         <img class="img-fluid" src="eventimages/african-ethnicity-colors-culture-1038038.jpg" alt="">
       </div>
       <div class="col-md-4 ">
-        <h2>FASHION WEEK</h2>
+        <h2>Fashion Week</h2>
         <p id="camping">The Ladies of Hope
           invites you to preview a showcase of their 2018 Collection
           and to enjoy British High Tea and Lunch
@@ -242,7 +252,7 @@
 
     <div class="row justify-content-center soon">
       <div class="col-md-4 ">
-        <h2>GRADUATION PARTY</h2>
+        <h2>Graduation Party</h2>
         <p id="camping">Graduation is a special occasion in every student's life. We've watched Blue Haze grow throughout her academic career.
           The time has passed so quickly and graduation day is here!We joyfully invite to a Graduation Party.
           In the honor of our daughter on 21st 3.00pm Bliss Park Avenue </p>
@@ -258,7 +268,7 @@
         <img class="img-fluid" src="eventimages/blank-board-celebrate-1530270.jpg" alt="">
       </div>
       <div class="col-md-4 ">
-        <h2>CHRISTMAS INVITE</h2>
+        <h2>Christmas Party</h2>
         <p id="camping">Christmas comes but once a year, let's get together for some holiday cheer! Cocktails and Appetizers !
           <br>
           On Saturday, December 22nd,6:00 p.m. - 9:00 p.m.
@@ -267,7 +277,7 @@
           <br>
           Regrets? Jingle us at 0722 -123456
           <br>
-          The Rajeshs.</p>
+          The Rajeshs'.</p>
       </div>
     </div>
 
@@ -276,7 +286,7 @@
   <div class="row justify-content-center">
 
     <div class="col-md-10" id="announced">
-      <h2>Post an Event</h2>
+      <h2 id="title1">Post an Event</h2>
       <br>
       <button type="button" name="button" id="post">Click to post an event</button>
       <br>
@@ -327,10 +337,36 @@
   </div>
 
   <!-- FOOTER -->
-  <footer class="container">
-    <p class="float-right"><a href="#">Back to top</a></p>
-    <p>&copy; 2017-2018 Mtaa, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-  </footer>
+  <div class="container-fluid">
+    <section="footer">
+
+      <nav id="navig-bar" class="navbar navbar-expand-lg navbar navbar-dark bg-primary">
+        <a href="index.html"><img src="img/home/mtaa/logos_logo-color.png" width="200" height="auto" alt="mtaa logo" /></a>
+        <a class="navbar-brand" href="top"></a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+
+            <!-- Social Links -->
+            <div class="footer-social-links mb-110 mb-xs-60">
+              <a href="https://www.facebook.com" title="Facebook" target="_blank"><i class="fa fa-facebook" id="social"></i></a>
+              <a href="https://www.twitter.com" title="Twitter" target="_blank"><i class="fa fa-twitter" id="social"></i></a>
+              <a href="https://www.instagram.com" title="Instagram" target="_blank"><i class="fa fa-instagram" id="social"></i></a>
+              <a href="https://www.linkedin.com" title="LinkedIn+" target="_blank"><i class="fa fa-linkedin" id="social"></i></a>
+              <a href="https://www.pinterest.com" title="Pinterest" target="_blank"><i class="fa fa-pinterest" id="social"></i></a>
+            </div>
+            <!-- End Social Links -->
+
+
+          </ul>
+        </div>
+      </nav>
+
+    </section>
+  </div>
   <!-- END FOOTER -->
 
   <!-- Top Link -->

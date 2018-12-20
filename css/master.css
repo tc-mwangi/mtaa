@@ -351,6 +351,22 @@ img #features {
 }
 
 img #carImages {
-  height: 1536px;
+  heigfht: 1536px;
   width: 2048px;
+}
+
+#social {
+  color: white;
+  margin: 20px;
+}
+.centered{
+  text-align: center;
+}
+.first>.carousel-item>img {
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+}
+#title1 {
+  color: #FFFFFF;
 }

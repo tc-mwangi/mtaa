@@ -1,7 +1,11 @@
 $(document).ready(function() {
   $("#feedback form").submit(function(e) {
     $(".input-group").hide();
-    $("#messageContainer").hide()
+    $("#messageContainer").hide();
+    $("#feedbackS").hide();
+    $(".textbox").hide();
+    $("#msgs").hide();
+    $("#msg").hide();
     $("#text").slideDown(2000);
     e.preventDefault();
 
