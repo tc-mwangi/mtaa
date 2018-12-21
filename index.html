@@ -22,6 +22,7 @@
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/master.css">
   <link rel="stylesheet" href="css/fonts/Acumin Pro/stylesheet.css">
+  <link rel="stylesheet" href="hom.css">
 
   <!-- JS -->
   <script src="js/jquery-3.3.1.js" type="text/javascript"></script>
@@ -61,8 +62,8 @@
               <a class="nav-link" href="about.html" id='social'>About</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="gallery.html" id='social'>Gallery</a>
-          </li>
+              <a class="nav-link" href="gallery.html" id='social'>Gallery</a>
+            </li>
             <li class="nav-item">
               <a class="nav-link" href="events.html" id='social'>Events</a>
             </li>
@@ -74,38 +75,77 @@
           </li> -->
           </ul>
         </div>
+        <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
       </nav>
 
-    </section>
+      </section>
 
-    <!-- End Navigation panel -->
+      <div id="id01" class="modal">
 
-
-    <!-- START CAROUSEL -->
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-
-      <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-      </ol>
-
-
-
-
-      <div class="carousel-inner first">
-
-        <div class="carousel-item active">
-          <img id="carImages" class="d-block w-100" src="img/home/unsplash/joshua-rawson-harris-668614-unsplash.jpg" alt="Second slide">
+        <form class="modal-content animate" action="/action_page.php">
+          <div class="imgcontainer">
+            <span onclick="xx()" class="close" title="Close Modal">&times;</span>
+            <img src="eventimages/loginimg.png" alt="Avatar" class="avatar">
+          </div>
 
           <div class="container">
-            <div class="carousel-caption">
-              <h1>Mtaa</h1>
-              <h4 id="block-message">Your Information Base for all things local.
-              </h4>
+            <!-- End Sign up -->
+            <form class="login">
+              <label class="hidesignup">Username:
+                <input type="text" name="username" value="" id="user">
+              </label><br>
+              <label class="hidesignup">Password:
+                <input type="text" name="password" value="" id="pass"><br>
+              </label>
+              <button type="button" name="button" id="signup">Sign Up</button>
+            </form>
+            <!-- End Sign up -->
+
+            <!-- login -->
+            <form class="login">
+              <label class="hidelogin">Username:
+                <input type="text" name="username" value="" id="name">
+              </label><br>
+              <label class="hidelogin">Password:
+                <input type="text" name="password" value="" id="password">
+              </label>
+              <button type="button" name="button" id="applogin">Log in</button>
+              <input type="text" name="" value="" id="wellcome">
+            </form>
+            <!-- End login -->
+          </div>
+        </form>
+      </div>
+
+
+      <!-- End Navigation panel -->
+
+
+      <!-- START CAROUSEL -->
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+
+
+
+
+        <div class="carousel-inner first">
+
+          <div class="carousel-item active">
+            <img id="carImages" class="d-block w-100" src="img/home/unsplash/joshua-rawson-harris-668614-unsplash.jpg" alt="Second slide">
+
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>Mtaa</h1>
+                <h4 id="block-message">Your Information Base for all things local.
+                </h4>
+              </div>
             </div>
           </div>
-        </div>
 
           <div class="carousel-item">
             <img id="carImages" class="d-block w-100" src="img/home/unsplash/photo-1511632765486-a01980e01a18.jpeg" alt="First slide">
@@ -143,253 +183,253 @@
         </a>
       </div>
 
-    </div>
+  </div>
 
-    <!-- Divider -->
-    <li><a></a></li>
-    <!-- End Divider -->
-    <!-- START FEATURES-->
-    <div class="container features">
+  <!-- Divider -->
+  <li><a></a></li>
+  <!-- End Divider -->
+  <!-- START FEATURES-->
+  <div class="container features">
 
-      <!-- Page Wrap -->
-      <div class="page" id="top">
-
-
-          <!-- Section -->
-          <section class="page-section">
-              <div class="container relative">
-
-                  <div class="row">
-
-                      <!-- Content -->
-                      <div class="col-sm-8">
-
-                          <div class="row multi-columns-row">
+    <!-- Page Wrap -->
+    <div class="page" id="top">
 
 
+      <!-- Section -->
+      <section class="page-section">
+        <div class="container relative">
 
-                              <!-- Post Item 1-->
-                              <div class="col-md-6 col-lg-6 mb-60 mb-xs-40">
+          <div class="row">
 
-                                  <div class="post-prev-img">
+            <!-- Content -->
+            <div class="col-sm-8">
 
-
-                                      <a href="index.html"><img src="login&posts/images/blog/masonry/wayne-lee-sing-642495-unsplash.jpg" width="300" height="auto" alt="mtaa logo" /></a>
-                                  </div>
-
-                                  <div class="post-prev-title font-alt">
-                                      <a href="">Play Dates</a>
-                                  </div>
-
-                                  <div class="post-prev-info font-alt">
-                                      <a href="">Member</a> | 28 December
-                                  </div>
-
-                                  <br>
-                                  <br>
-
-
-                              </div>
-                              <!-- End Post Item 2-->
-
-                                                                <br>
-                                                                <br>
-
-                              <!-- Post Item -->
-                              <div class="col-md-6 col-lg-6 mb-60 mb-xs-40">
-
-                                  <div class="post-prev-img">
-                                      <a href="index.html"><img src="login&posts/images/blog/park-troopers-221402-unsplash.jpg" width="300" height="auto" alt="mtaa logo" /></a>
-                                  </div>
-
-                                  <div class="post-prev-title font-alt">
-                                      <a href="">Parties</a>
-                                  </div>
-
-                                  <div class="post-prev-info font-alt">
-                                      <a href="">Member</a> | 19 December
-                                  </div>
-
-                                  <br>
-                                  <br>
-
-
-                              </div>
-                              <!-- End Post Item -->
-
-                              <!-- Post Item 3-->
-                              <div class="col-md-6 col-lg-6 mb-60 mb-xs-40">
-
-                                  <div class="post-prev-img">
-                                      <a href="index.html"><img src="login&posts/images/blog/natalie-pedigo-306019-unsplash.jpg" width="300" height="auto" alt="mtaa logo" /></a>
-                                  </div>
-
-                                  <div class="post-prev-title font-alt">
-                                      <a href="">Ceremonies</a>
-                                  </div>
-
-                                  <div class="post-prev-info font-alt">
-                                      <a href="">Member</a> | 7 December
-                                  </div>
-
-
-                                  <br>
-                                  <br>
-
-                              </div>
-                              <!-- End Post Item 4-->
-
-                              <!-- Post Item -->
-                              <div class="col-md-6 col-lg-6 mb-60 mb-xs-40">
-
-                                  <div class="post-prev-img">
-                                      <a href="index.html"><img src="login&posts/images/blog/masonry/wayne-lee-sing-642495-unsplash.jpg" width="300" height="auto" alt="mtaa logo" /></a>
-                                  </div>
-
-                                  <div class="post-prev-title font-alt">
-                                      <a href="">Outdoor Activities</a>
-                                  </div>
-
-                                  <div class="post-prev-info font-alt">
-                                      <a href="">Member</a> | 7 December
-                                  </div>
+              <div class="row multi-columns-row">
 
 
 
-                              </div>
-                              <!-- End Post Item -->
+                <!-- Post Item 1-->
+                <div class="col-md-6 col-lg-6 mb-60 mb-xs-40">
 
-                              <br>
-                              <br>
-
-                          </div>
-
-                      </div>
-                      <!-- End Content -->
-
-                      <!-- Sidebar -->
-                      <div class="col-sm-4 col-md-3 col-md-offset-1 sidebar">
+                  <div class="post-prev-img">
 
 
-                          <!-- Widget -->
-                          <div class="widget">
-
-
-
-                              <div class="widget-body">
-                                  <ul class="clearlist widget-posts">
-                                      <li class="clearfix">
-                                          <a href="index.html"><img src="img/home/social-media/png/001-like.png" width="70" height="auto" alt="mtaa logo" /></a>
-                                          <div class="widget-posts-descr">
-                                              <a href="#" title="">Meet-ups.
-                                          </div>
-                                      </li>
-                                      <li class="clearfix">
-                                          <a href="index.html"><img src="img/home/social-media/png/007-target.png" width="70" height="auto" alt="mtaa logo" /></a>
-                                          <div class="widget-posts-descr">
-                                              <a href="#" title="">Singles Night</a>
-
-                                          </div>
-                                      </li>
-                                      <li class="clearfix">
-                                          <a href="index.html"><img src="img/home/social-media/png/035-placeholder.png" width="70" height="auto" alt="mtaa logo" /></a>
-                                          <div class="widget-posts-descr">
-                                              <a href="#" title="">Camping</a>
-
-                                          </div>
-                                      </li>
-                                      <li class="clearfix">
-                                          <a href="index.html"><img src="img/home/social-media/png/040-cloud-2.png" width="70" height="auto" alt="mtaa logo" /></a>
-                                          <div class="widget-posts-descr">
-                                              <a href="#" title="">Karaoke
-                                          </div>
-                                      </li>
-                                      <li class="clearfix">
-                                          <a href="index.html"><img src="img/home/social-media/png/027-gamer.png" width="70" height="auto" alt="mtaa logo" /></a>
-                                          <div class="widget-posts-descr">
-                                              <a href="#" title="">Game night</a>
-
-                                          </div>
-
-
-                                      </li>
-
-                                      <li class="clearfix">
-                                          <a href="index.html"><img src="img/home/social-media/png/004-like-3.png" width="70" height="auto" alt="mtaa logo" /></a>
-                                          <div class="widget-posts-descr">
-                                              <a href="#" title="">Volunteer</a>
-
-                                          </div>
-
-
-                                      </li>
-                                  </ul>
-                              </div>
-
-                          </div>
-                          <!-- End Widget -->
-
-                      </div>
-                      <!-- End Sidebar -->
+                    <a href="index.html"><img src="login&posts/images/blog/masonry/wayne-lee-sing-642495-unsplash.jpg" width="300" height="auto" alt="mtaa logo" /></a>
                   </div>
 
+                  <div class="post-prev-title font-alt">
+                    <a href="">Play Dates</a>
+                  </div>
+
+                  <div class="post-prev-info font-alt">
+                    <a href="">Member</a> | 28 December
+                  </div>
+
+                  <br>
+                  <br>
+
+
+                </div>
+                <!-- End Post Item 2-->
+
+                <br>
+                <br>
+
+                <!-- Post Item -->
+                <div class="col-md-6 col-lg-6 mb-60 mb-xs-40">
+
+                  <div class="post-prev-img">
+                    <a href="index.html"><img src="login&posts/images/blog/park-troopers-221402-unsplash.jpg" width="300" height="auto" alt="mtaa logo" /></a>
+                  </div>
+
+                  <div class="post-prev-title font-alt">
+                    <a href="">Parties</a>
+                  </div>
+
+                  <div class="post-prev-info font-alt">
+                    <a href="">Member</a> | 19 December
+                  </div>
+
+                  <br>
+                  <br>
+
+
+                </div>
+                <!-- End Post Item -->
+
+                <!-- Post Item 3-->
+                <div class="col-md-6 col-lg-6 mb-60 mb-xs-40">
+
+                  <div class="post-prev-img">
+                    <a href="index.html"><img src="login&posts/images/blog/natalie-pedigo-306019-unsplash.jpg" width="300" height="auto" alt="mtaa logo" /></a>
+                  </div>
+
+                  <div class="post-prev-title font-alt">
+                    <a href="">Ceremonies</a>
+                  </div>
+
+                  <div class="post-prev-info font-alt">
+                    <a href="">Member</a> | 7 December
+                  </div>
+
+
+                  <br>
+                  <br>
+
+                </div>
+                <!-- End Post Item 4-->
+
+                <!-- Post Item -->
+                <div class="col-md-6 col-lg-6 mb-60 mb-xs-40">
+
+                  <div class="post-prev-img">
+                    <a href="index.html"><img src="login&posts/images/blog/masonry/wayne-lee-sing-642495-unsplash.jpg" width="300" height="auto" alt="mtaa logo" /></a>
+                  </div>
+
+                  <div class="post-prev-title font-alt">
+                    <a href="">Outdoor Activities</a>
+                  </div>
+
+                  <div class="post-prev-info font-alt">
+                    <a href="">Member</a> | 7 December
+                  </div>
+
+
+
+                </div>
+                <!-- End Post Item -->
+
+                <br>
+                <br>
+
               </div>
-          </section>
-          <!-- End Section -->
+
+            </div>
+            <!-- End Content -->
+
+            <!-- Sidebar -->
+            <div class="col-sm-4 col-md-3 col-md-offset-1 sidebar">
 
 
-      </div>
-      <!-- End Page Wrap -->
+              <!-- Widget -->
+              <div class="widget">
 
 
 
+                <div class="widget-body">
+                  <ul class="clearlist widget-posts">
+                    <li class="clearfix">
+                      <a href="index.html"><img src="img/home/social-media/png/001-like.png" width="70" height="auto" alt="mtaa logo" /></a>
+                      <div class="widget-posts-descr">
+                        <a href="#" title="">Meet-ups.
+                      </div>
+                    </li>
+                    <li class="clearfix">
+                      <a href="index.html"><img src="img/home/social-media/png/007-target.png" width="70" height="auto" alt="mtaa logo" /></a>
+                      <div class="widget-posts-descr">
+                        <a href="#" title="">Singles Night</a>
 
-      <!-- Footer Navigation panel -->
-<div class="container-fluid">
-  <section="footer">
+                      </div>
+                    </li>
+                    <li class="clearfix">
+                      <a href="index.html"><img src="img/home/social-media/png/035-placeholder.png" width="70" height="auto" alt="mtaa logo" /></a>
+                      <div class="widget-posts-descr">
+                        <a href="#" title="">Camping</a>
 
-    <nav id="navig-bar" class="navbar navbar-expand-lg navbar navbar-dark bg-primary">
-      <a href="index.html"><img src="img/home/mtaa/logos_logo-color.png" width="200" height="auto" alt="mtaa logo" /></a>
-      <a class="navbar-brand" href="top"></a>
+                      </div>
+                    </li>
+                    <li class="clearfix">
+                      <a href="index.html"><img src="img/home/social-media/png/040-cloud-2.png" width="70" height="auto" alt="mtaa logo" /></a>
+                      <div class="widget-posts-descr">
+                        <a href="#" title="">Karaoke
+                      </div>
+                    </li>
+                    <li class="clearfix">
+                      <a href="index.html"><img src="img/home/social-media/png/027-gamer.png" width="70" height="auto" alt="mtaa logo" /></a>
+                      <div class="widget-posts-descr">
+                        <a href="#" title="">Game night</a>
 
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
+                      </div>
 
-          <!-- Social Links -->
-          <div class="footer-social-links mb-110 mb-xs-60">
-            <a href="https://www.facebook.com" title="Facebook" target="_blank"><i class="fa fa-facebook" id="social"></i></a>
-            <a href="https://www.twitter.com" title="Twitter" target="_blank"><i class="fa fa-twitter" id="social"></i></a>
-            <a href="https://www.instagram.com" title="Instagram" target="_blank"><i class="fa fa-instagram" id="social"></i></a>
-            <a href="https://www.linkedin.com" title="LinkedIn+" target="_blank"><i class="fa fa-linkedin" id="social"></i></a>
-            <a href="https://www.pinterest.com" title="Pinterest" target="_blank"><i class="fa fa-pinterest" id="social"></i></a>
+
+                    </li>
+
+                    <li class="clearfix">
+                      <a href="index.html"><img src="img/home/social-media/png/004-like-3.png" width="70" height="auto" alt="mtaa logo" /></a>
+                      <div class="widget-posts-descr">
+                        <a href="#" title="">Volunteer</a>
+
+                      </div>
+
+
+                    </li>
+                  </ul>
+                </div>
+
+              </div>
+              <!-- End Widget -->
+
+            </div>
+            <!-- End Sidebar -->
           </div>
-          <!-- End Social Links -->
+
+        </div>
+      </section>
+      <!-- End Section -->
 
 
-        </ul>
-      </div>
-    </nav>
-
-  </section>
-</div>
-
-      <!-- End Navigation panel -->
+    </div>
+    <!-- End Page Wrap -->
 
 
-      <!-- FOOTER -->
-      <footer class="container">
-        <p class="float-right"><a href="#">Back to top</a></p>
-        <!-- <p>&copy; 2017-2018 Mtaa, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p> -->
-        <!-- Top Link -->
-        <!-- <div class="local-scroll">
+
+
+    <!-- Footer Navigation panel -->
+    <div class="container-fluid">
+      <section="footer">
+
+        <nav id="navig-bar" class="navbar navbar-expand-lg navbar navbar-dark bg-primary">
+          <a href="index.html"><img src="img/home/mtaa/logos_logo-color.png" width="200" height="auto" alt="mtaa logo" /></a>
+          <a class="navbar-brand" href="top"></a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+
+              <!-- Social Links -->
+              <div class="footer-social-links mb-110 mb-xs-60">
+                <a href="https://www.facebook.com" title="Facebook" target="_blank"><i class="fa fa-facebook" id="social"></i></a>
+                <a href="https://www.twitter.com" title="Twitter" target="_blank"><i class="fa fa-twitter" id="social"></i></a>
+                <a href="https://www.instagram.com" title="Instagram" target="_blank"><i class="fa fa-instagram" id="social"></i></a>
+                <a href="https://www.linkedin.com" title="LinkedIn+" target="_blank"><i class="fa fa-linkedin" id="social"></i></a>
+                <a href="https://www.pinterest.com" title="Pinterest" target="_blank"><i class="fa fa-pinterest" id="social"></i></a>
+              </div>
+              <!-- End Social Links -->
+
+
+            </ul>
+          </div>
+        </nav>
+
+        </section>
+    </div>
+
+    <!-- End Navigation panel -->
+
+
+    <!-- FOOTER -->
+    <footer class="container">
+      <p class="float-right"><a href="#">Back to top</a></p>
+      <!-- <p>&copy; 2017-2018 Mtaa, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p> -->
+      <!-- Top Link -->
+      <!-- <div class="local-scroll">
         <a href="#top" class="link-to-top"><i class="fa fa-caret-up"></i></a>
     </div> -->
-        <!-- End Top Link -->
-      </footer>
-      <!-- END FOOTER -->
+      <!-- End Top Link -->
+    </footer>
+    <!-- END FOOTER -->
 
 
 
@@ -399,15 +439,15 @@
 
 
 
-      <!-- Optional JavaScript -->
+    <!-- Optional JavaScript -->
 
-      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
-      <!-- OWL CAROUSEL -->
-      <script src="jquery.min.js"></script>
-      <script src="css/OwlCarousel2-2.3.4/dist/owl.carousel.js"></script>
+    <!-- OWL CAROUSEL -->
+    <script src="jquery.min.js"></script>
+    <script src="css/OwlCarousel2-2.3.4/dist/owl.carousel.js"></script>
 
 </body>
 
