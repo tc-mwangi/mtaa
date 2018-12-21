@@ -1,31 +1,33 @@
 
 # MTAA
-#### {Neighbourhood connection}, {2018}
+#### {Neighbourhood Connection}, {2018}
 ## Description
 ![image](url)
-
-
-
-
+In today's world, people are less in touch with community members. The Mtaa platform is the best way to stay informed about what’s going on in your neighbourhood; whether it’s finding a last-minute person to watch your kids, planning a local event, sharing growth development ideas or sharing safety tips. There are so many ways your Neighbours can help, all you need is an easier way to connect with them.
 
 ## Setup/Installation Requirements
 
 To run this project on your local machine, simply download it navigate to the folder and open the index.html file with any web browser(preferably chrome).
 
-## Specs
-
-|**behavior**                                    | **expected outcome**                      |
-|:-----------------------------------------------|:------------------------------------------|
-
-## Known Bugs
-
+## BEHAVIOR
+ * The user will be able to access different tabs on the home page.
+ * On home page, the user will be also be able to have an overview of both previous and upcoming events. However, one must be a member to view all the details.
+ * To be a member, one must sign up then log in
+ * As a member, the user will be able to view the gallery , current posted events and post their own event.
+ * On About page, the user will get more information on the page as well as meet the team behind the website.
+ * The contact page will allow the user to send their feedback to the team.
 
 ## Technologies Used
 Software used in the application include;
-* IDEs include either: Atom, VS Code, Brackets.
-* Browsers include either: Google Chrome, Mozilla Firefox.
-* JavaScript,HTML and CSS
-* basic j-query
+* IDEs include : Atom, VS Code, Brackets.
+* Browsers include: Google Chrome, Mozilla Firefox.
+* Hyper Text Markup Language
+* Cascading Style Sheet
+* JavaScript
+* JQuery
+* JavaScript plugin (FileSaver)
+* Node.js
+* Node Package Manager
 
 ## Support and contact details
 * [Francis T](https://github.com/Fkaragu)
