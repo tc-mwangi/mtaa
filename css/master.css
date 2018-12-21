@@ -370,3 +370,22 @@ img #carImages {
 #title1 {
   color: #FFFFFF;
 }
+
+
+/* log in */
+.loginGroup{
+  text-align: center;
+  background-color: #007FFF;
+}
+.itemhide{
+ display: none;
+}
+.hidesignup{
+
+}
+.hidelogin{
+ display: none;
+}
+#wellcome{
+ display: none;
+}
